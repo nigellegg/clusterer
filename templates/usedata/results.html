@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}Results {% endblock %}
+
+{% block content %}
+<h3>Clustering Results</h3>
+<br>
+<p>Spreadsheet name: {{ spreadname }}</p>
+<p>Text Column: {{ datcol }}</p>
+<p>Cluster Column: {{ clustcol }}</p>
+<p>Number of texts: {{ notext }}</p>
+<p>Number of Clusters: {{ noclusters }}</p>
+<p>An email will be sent to you when the clustering is complete.</p>
+<br>
+<p><a href="/getdata/setup/">Go back and cluster another column</a></p>
+{% endblock %}

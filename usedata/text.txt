@@ -1,0 +1,60 @@
+Aeris Weather API is a hosted vended ?solution (by HAMWeather) for providing weather information to web sites and mobile applications. It provides a Resful API Service returning JSON data. The service itself is distributed over multiple regional locations, supporting load balancing , auto-scaling and recovery.
+Arbitration Forums (AF) is the US's largest membership-driven organization that provides arbitration and subrogation services.
+Sweepstake web pages on Allstate Rackspace servers.
+AFT version of an Integration tool for data analysis, batch processing. Used to extract, transform, and load data
+TIBCO middleware communication services between AFT Application and AFT Integration Points
+Catastrophe Modeling platform
+It is a shareware product provided by 'Applied Systems'. The product is not created or supported by Applied Systems.
+WinCare is a windows-based client offering real-time, chat collaboration between agents and online customers via the Web. With WinCare, agents receive real-time information about a customers navigation through your website including web session history and historical data. The end result is an enhanced customer experience and an increase in the level of service provided. All Extrnally hosted
+The Attenex and Ringtail suite of products provide a legal review tool that leads to increased efficiency, effectiveness and consistency when executing the response management process. This ultimately leads to decreased time and cost
+Balsamiq is a rapid prototyping tool. Desktop app.
+Some users within Law & Reg need to access the Banner Witcoff site but there is an active-x control which doesn't work in MyND
+SaaS platform that provides an IT organization with the ability to capture current state application portfolio information which results in the creation of an IT/Business Graph (unified IT) thathelps meet business objectives, reduce costs, and optimize the allocation of resources by engaging the collective experiences of IT, real--time contributions, and expert guidance.
+Basecamp is a web-based project management tool. eBusiness Marketing are creating an internal staff of SEO employees, doing work on behalf of agents to clean up local marketing information (Yahoo Local etc).
+With end-to-end mail-processing features (presorting, address standardization, de-duping and more), USPSÂ® CASSâ„¢ and PAVEâ„¢ certified BCC Mail Manager handles mailing jobs with push-button simplicity, and helps professional mailers provide an unsurpassed portfolio of mailing services to a wide range of clients.
+Creates a platform for interactive, agency focused sales training.
+Bloomberg is a market data and news tool. It consists of a desktop client and an Excel add-in. Single user licensed ""Bloomberg Anywhere"" customers also have a hardware piece that verifies their ID
+BoardVantage is a secure web portal for a companies Board of Directors
+Provides credit reports
+C-CURE is a Security Management System (SMS) that is a powerful, flexible, multi-function and object-oriented security and event management system that features a variety of customizable interfaces.
+As Collateral Manager for AIMCO CLO, Series 2014-A, we are mandated by a legal document called an Indenture as to what we are responsible for and obligated to do and not to do. Within this document it states we must run S&P CDO Monitor to ensure the CLO is within the designated margins determined within the Indenture.
+The Concur booking tool makes business travel a snapâ€”starting with customized options that align with your company policies.
+Insurance Decisions provides a full range of commercial policy administration functionality, from clearance to issuance, out-of-sequence endorsements to renewal processing, bureau rates and forms to financial and statistical reporting.
+Externally hosted, managed website used by AFS producers selling multiple carrier products (e.g. Long Term Care, other Life risk products)
+(Fiserv) Legacy bank application handles check images.
+CyberLife gives organizations a competitive edge by reducing costs improving productivity and accelerating speed to market for new products.
+Reference Data Store and Data Hub
+Reference Data Store and Data Hub
+Earnix Optimizerâ„¢â€™s Price Optimization platform enables insurers to model customer demand, impose complex business goals and regulatory requirements, evaluate alternative pricing decisions and executethe selected plan.
+Provides rules-based productivity to reduce planning and prepress labor costs for the printing processes
+EFI Pace is a Management Information System for the print and mail industry to estimate, plan, and schedule work throughout the department. Replacing EFI PSI.
+Bridging software that pulls MI information regarding APCC print devices, via its partner AutoCount. Data is held in an MI database and Plant Manager thus provides access to EFI Pace to that information
+Tool is leveraged to allow Employee Resource Groups to enter the projects that they are working on.
+Externally hosted,Examination Management Services, Inc. (EMSI) provides medical information, risk management and investigative services to the insurance, healthcare, legal, wellness and business communities. We empower our customers with comprehensive information to help them make informed decisions and improve the lives of those they serve..
+A decision support tool originally from Hyperion that is optimized for business planning
+Fieldglass is a web-based tool used for ordering and tracking contingent labor.
+A real-time administration and management tool for international and domestic securities lending programmes.
+Supplier designed, developed content, and programed the Allstate corporate customer newsletter
+Financial reporting tool connecting to Maximis and DW databases
+iPartners is an actuarial report generation company. They aggregate raw data and provide dashboards for management to manage the business.
+This product is supplied by IVANS to transfer files containing Accord policy info to IVANS Mailbox. Independent Agents AMS systems downloads these files from IVANS Mailbox.
+Detailed dashboards for RealTime reporting of queues and coumetns within the Kofax capture product - and integration with other data stores to provide comprehensive document analytics?.
+MailChimp provides the ability to manage email campaigns and provide reporting on the success of those campaigns.
+MATLAB is a multi-paradigm numerical computing environment and fourth-generation programming language. Programming IDE used for analytics and other functions. MATLAB is intended primarily for numerical computing.
+MIRA is a commercial real estate analytics application that provides loan and security valuation.
+The Myriad Risk Manager product helps facilitate property inspections between insurance carrier and 3rd party inspection companies and controls underwriting workflow. Moreover, Myriad looks to provide aggregation, integration and archival with each Risk Manager implementation
+Externally hosted, Agents and Financial specialists use the Protective Website for selling and servicing Protective life and retirement products
+Includes data services and real-time validation services to help grow our existing Phone number & email address list and ensure improved quality of email addresses on file and tag phone numbers as cell-phone numbers.
+*****Possible Duplicate; Investigating***** Calculates the replacement values for any style of home.
+TRAC Solution centralizes and automates the tracking, monitoring of service requests and management of assets and processes â€” enabling you to increase efficiency, enhance communication, optimize costs, and ultimately produce better results for your business
+Provides tracking of activity at all Ricoh print devices, enables authentication-only printing and 'FollowMe/Pull' printing
+The Attenex and Ringtail suite of products provide a legal review tool that leads to increased efficiency, effectiveness and consistency when executing the response management process. This ultimately leads to decreased time and cost. Includes Ringtail - OCR Crawler, Ringtail - RPF Supervisors, Ringtail - Tiff on Fly Management Console, Ringtail - Tiff on Fly Processing Server, Ringtail Agent, Ringtail Legal, and Ringtail Processing Framework (RPF) Coordinator.
+Analytics is the SaaS vendor that hosts NAIC SERFF web site to enable Allstate to automate and accelerate the regulatory filing process
+Archer is the Governance, Risk, and Compliance Suite for the Enterprise. It contains the following components: Policy Management, Risk Management, Enterprise Management, Incident Management, Threat Management and Compliance Management
+The Concur platform sits on top of Sabre to book reservations. Sabre provides basically the same data that we can get in Concur, but in the native format vs. using the GUI interface
+Provides procurement and inventory functions for the professional purchaser and includes a wide variety of tools and techniques to support requisition to fulfillment. Functions include requisition and purchase order creation, inventory management, reorder point processing, etc. There is a strong link between Materials Management, Warehouse Management, and Logistics Invoice Verification (A/P component).
+SAP Sales and Distribution is used to manage sales-side transactions; traditionally used to record orders to customers. At Allstate, SD is used to track orders for Marketing Collateral from producers. SD functionality includes customer masters (in SAP A/R), order processing, backorder management, delivery processing and sales order reporting. Links to Internet Sales Application, Materials Management, and Warehouse Management.
+SAP CRM Employee Interaction Center combines HR help desk functionality with customer relationship management.
+SAP's enterprise-wide transaction system designed to coordinate resources, information, and activities needed to complete business processes such as financial accounting or human capital management
+Represents the company's flow of cost and revenue. It is a management instrument for organizational decisions. It too is automatically updated as events occur. The CO module has following sub modules: CO-OM Overhead Costing (Cost Centers, Activity Based Costing, Internal Order Costing), CO-PA Profitability Analysis, CO-PC Product Cost Controlling
+Processing vendor master data. Carrying out invoice verification (optional). Creating and checking payment proposals. Executing payment runs.

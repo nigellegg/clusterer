@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h3>Text Clusters - Home </h3>
+<p></p>
+<p> Text Clusters takes a column of text from a Google spreadsheet and runs the GAA clustering algorithm on it.  The cluster tags are then put into the Google Spreadsheet. </p>
+<p>The user selects the columns to use, so it can be run iteratively across a number of columns in the same spreadsheet.</p>
+<p><a href="/accounts/login">Login to continue</a> or <a href="/accounts/register/">Sign up </a></p>
+{% endblock %}

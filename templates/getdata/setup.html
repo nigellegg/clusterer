@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load bootstrap3 %}
+{% block title %}Setup {% endblock %}
+
+{% block content %}
+    <h3>Setup analysis</h3>
+    <form action="/getdata/setup/" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <br>
+        <div class="row" >
+            <div class='col-md-6'>{% bootstrap_field form.spreadname %}</div>
+        </div>
+        <div class="row">
+            <div class='col-md-6'>{% bootstrap_field form.spreadnote %}</div>
+        </div>
+        <div class="row" >
+            <div class='col-md-4'>{% bootstrap_field form.datcol %}</div>
+            <div class='col-md-4'>{% bootstrap_field form.clustcol %}</div>
+        </div>
+        <p><input type='submit' value='Do it' /></p>
+    </form>
+    <br>
+    {% if sets %}
+        <ul>{% for set in sets %}
+        <li><a href="/getdata/confirm/{{ set.id }}">{{ set }}</a></li>
+       {% endfor %}</ul>
+    {% endif %}
+
+{% endblock %}

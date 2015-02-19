@@ -1,0 +1,7 @@
+{% load humanize %}
+Thanks for signing up for a trial of OsmiumTables. 
+You may find the Getting Started guide, which you can download from http://www.chibwe.com/?p=2194, helpful to understannd how you can use the system.  
+If you have any questions at all, please get in touch!
+
+All the best,
+The OsmiumTables Team.

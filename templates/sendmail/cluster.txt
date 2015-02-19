@@ -1,0 +1,5 @@
+{% load humanize %}
+Your text has been clustered.
+Please look over the clusters to ensure that they make sense.
+
+Regards, your Clusterer.

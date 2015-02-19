@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}Confirm settings {% endblock %}
+{% block content %}
+<br>
+<p>Spreadsheet name: {{ spreadname }}</p>
+<p>Spreadsheet note: {{ spreadnote }}</p>
+<p>Data column to analyse: {{ datcol }}</p>
+<p>Cluster tag column: {{ clustcol }}</p>
+
+<p><a href="/getdata/setup/">Go back and change entries</a></p>
+<p><a href="/usedata/results/">Cluster the text</a></p>
+{% endblock %}
+
