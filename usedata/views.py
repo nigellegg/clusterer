@@ -21,7 +21,7 @@ from pusher import Config, Pusher
 
 
 def runcluster(request):
-    pusher = Pusher(app_id='107553', 
+    pusher = Pusher(app_id='107553',
                     key='6cafdb4abb267445bf93',
                     secret='03da6a0ca85e7e2fcba0')
     pusher[test_channel].trigger('message', {'message': 'Clusterer starting.  You will be sent an emaail when it completes.'})

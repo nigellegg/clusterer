@@ -144,8 +144,8 @@ def run_clusters(setupid, em_add):
                      subject="Clusterer use",
                      sender=POSTMARK_SENDER,
                      to='nigel@chibwe.com',
-                     #text_body="User with email address " + em_add + " clustered " + str(len(data)) + " documents.",
-                     text_body="User with email address clustered documents.",
+                     text_body="User with email address " + em_add + " clustered " + str(len(data)) + " documents.",
+                     #text_body="User with email address clustered documents.",
                      tag="clusterer")
     message.send()
 
