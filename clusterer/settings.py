@@ -92,7 +92,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME':  'cluster_db',
         'USER': 'django_login',
-        'PASSWORD': 'suspense1',
+        'PASSWORD': 'BigRock56789',
         'HOST': '127.0.0.1',
         'PORT': '',
     }
