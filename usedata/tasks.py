@@ -220,5 +220,3 @@ def run_sort(setupid):
                      text_body="Hello, clustering has finished.  The text and cluster ids can be downloaded from http://osmium.s3.amazonaws.com/media/nameclust.csv.",
                      tag="data")
     message.send()
-
-

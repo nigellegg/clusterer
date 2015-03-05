@@ -2,12 +2,12 @@
 # usedata tasks - cluster code
 # copyright 2014 Chibwe Ltd
 
-import gspread
 import nltk
 from nltk.cluster import GAAClusterer
 from nltk.cluster import euclidean_distance
 import hcluster as hcluster
 import numpy as np
+import pandas as pd
 import csv
 import itertools
 import re
@@ -72,47 +72,43 @@ def AverageLength(data):
     tokes = []
     i = 0
     while i < 100:
-        text = filtered_text(data[i])
-        tokens = str(text).split(' ')
-        x = len(tokens)
-        tokes.append(x)
-        i += 1
+        for line in data:
+            text = filtered_text(line)
+            tokens = str(text).split(' ')
+            x = len(tokens)
+            tokes.append(x)
+            i += 1
     ave = sum(tokes)/len(tokes)
     return ave
 
 
-def run_clusters(setupid):
-    data = open('text.txt', 'r')
+def run_clusters(text):
+    data = []
+    textdf = pd.read_csv(text)
+    x = len(textdf)
+    i = 0
+    while i < len(textdf):
+        data.append(textdf['Descrition'][i])
     text_len = AverageLength(data)
     if text_len < 10:
         run_sort(data, wks, clustcol)
     else:
-        texts = data
-        notext = len(texts)
-        #cluster = GAAClusterer(20)
-        #noclusters = 20
-        ListWords = make_listwords(texts)
-        #print ListWords
-        tree = hcluster.hcluster([vectorspaced(text, ListWords) for text in texts], distance=hcluster.L2dist)
-        print tree
-        #cluster.cluster([vectorspaced(text, ListWords) for text in texts])
-        #classified_examples = [
-        #    cluster.classify(vectorspaced(text, ListWords)) for text in texts]
+        print 'Running full GAA Clusters'
+        notext = len(data)
+        cluster = GAAClusterer(20)
+        noclusters = 20
+        ListWords = make_listwords(data)
+        print ListWords
+        cluster.cluster([vectorspaced(text, ListWords) for text in data])
+        classified_examples = [
+            cluster.classify(vectorspaced(text, ListWords)) for text in data]
         print 'texts clustered'
         i = 1
-        colx = []
-        while i < notext+1:
-            col = clustcol + str(i)
-            colx.append(col)
-            i += 1
-        for x in data:
-            i = 0
-            for cluster_id, text in sorted(zip(classified_examples, texts)):
-                if x == text:
-                    wks.update_acell(colx[i], cluster_id)
-                i += 1
+        out = open('clustered.csv', 'w')
+        for cluster_id, text in sorted(zip(classified_examples, texts)):
+            out.write(text + ', ' + str(cluster_id) + '\n')
+        out.close()
     print 'all done'
-    return HttpResponseRedirect(reverse('sendmail.clusteremail'))
 
 
 def run_sort(data, wks, clustcol):
@@ -172,4 +168,5 @@ def run_sort(data, wks, clustcol):
 
 
 if __name__ == '__main__':
-    run_clusters()
+    text = input('Text file name......   ')
+    run_clusters(text)
