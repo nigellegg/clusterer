@@ -91,10 +91,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME':  'cluster_db',
-        #'USER': 'django_login',
-        #'PASSWORD': 'suspense1',
-        #'HOST': '127.0.0.1',
-        #'PORT': '',
+        'USER': 'django_login',
+        'PASSWORD': 'suspense1',
+        'HOST': '127.0.0.1',
+        'PORT': '',
     }
 }
 
@@ -112,7 +112,7 @@ USE_L10N = True
 USE_TZ = True
 
 
-BROKER_URL = os.environ.get('REDISGREEN_URL', 'redis://localhost')
+BROKER_URL = 'redis://localhost:6379/0'
 CELERY_IMPORTS = ('usedata.tasks',)
 djcelery.setup_loader()
 
@@ -151,13 +151,3 @@ TEMPLATE_LOADERS = (
 TEMPLATE_DIRS = (
     PROJECT_DIR.child("templates"),
 )
-
-
-import dj_database_url
-DATABASES['default'] = dj_database_url.config()
-
-# Honor the 'X-Forwarded-Proto' header for request.is_secure()
-SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-
-# Allow all host headers
-ALLOWED_HOSTS = ['*']

@@ -6,8 +6,6 @@ argparse==1.2.1
 billiard==3.3.0.18
 boto==2.32.1
 celery==3.1.7
-dj-database-url==0.3.0
-dj-static==0.0.6
 django-bootstrap3==4.11.0
 django-celery==3.1.16
 django-registration==1.0
@@ -21,7 +19,6 @@ nltk==3.0.0
 numpy==1.9.0
 pandas==0.15.2
 psycopg2==2.5.4
-pusher==0.8
 pusher-rest==0.1.0
 python-dateutil==2.4.0
 python-postmark==0.4.6
