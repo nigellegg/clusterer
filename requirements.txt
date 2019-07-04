@@ -1,4 +1,4 @@
-Django==1.11.21
+Django>=1.11.22
 Unipath==1.0
 amqp==1.4.6
 anyjson==0.3.3
