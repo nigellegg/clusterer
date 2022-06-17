@@ -16,7 +16,7 @@ gspread==0.2.2
 gunicorn==19.5.0
 kombu==3.0.23
 nltk > 3.4.5
-numpy==1.9.0
+numpy==1.21.0
 pandas==0.15.2
 psycopg2==2.5.4
 pusher-rest==0.1.0
